@@ -1,0 +1,4 @@
+No objects found matching '/*'问题
+点击工具栏中的“simulate”按钮，调出start simulate窗口，把窗口最下边的optimization栏中的Enable optimization项目的勾勾去掉，然后选择仿真文件，点击OK，就一切正常，能看到objects了。
+或者找到modelsim安装目录下的modelsim.ini文件，将VoptFlow=1注释掉，或者把1改为0，这样磨默认的状态就是不优化。
+总的来说，就是优化的问题，禁止优化，就能看到object。
